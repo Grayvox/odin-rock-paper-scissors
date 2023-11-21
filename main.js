@@ -17,7 +17,7 @@ function playRound(playerSelection, computerSelection) {
         console.log(`Scissors cuts thou's paper. Computer tis victorious!`)
     } else if (playerSelection.toLowerCase() == 'scissors' && computerSelection.toLowerCase() == 'paper') {
         console.log(`Scissors cuts thou's paper. Player tis victorious!`)
-    } else if (playerSelection.toLowerCase() == 'rock' && computerSelection.toLowerCase() == 'paper') {
+    } else if (playerSelection.toLowerCase() == 'scissors' && computerSelection.toLowerCase() == 'rock') {
         console.log(`Paper covers thou's rock. Computer tis victorious!`)
     } else {
         console.log(`Error! One of thy selves chose a false weapon!`)
