@@ -4,3 +4,10 @@
     background-size: cover;
     background-color: #1B2452;
 }
+
+.game-page {
+    margin: 100px 500px;
+    padding: 10px;
+    border-radius: 15px;
+    background-image: linear-gradient(#3b3c40, #1e1f21);
+}
