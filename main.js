@@ -29,6 +29,10 @@ function playRound(playerSelection, computerSelection) {
 
 }
 
+rockButton.addEventListener('click', playRound(getComputerChoice(), 'rock'));
+paperButton.addEventListener('click', playRound(getComputerChoice(), 'paper'));
+scissorsButton.addEventListener('click', playRound(getComputerChoice(), 'scissors'));
+
 /*
 function game() {
 
