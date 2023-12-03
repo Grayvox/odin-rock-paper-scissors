@@ -27,16 +27,14 @@ function playRound(playerSelection, computerSelection) {
 
 function game() {
 
-    for (i = 1; i < 6; i++) {
-        let getPlayerChoice = prompt('Thou must choose thy weapon: Rock, Paper, or Scissors.')
+    let getPlayerChoice = prompt('Thou must choose thy weapon: Rock, Paper, or Scissors.')
 
-        if (getPlayerChoice == null) {
-            console.log('Game cancelled! Reload page to restart.')
-            return;
-        }
-
-        playRound(getPlayerChoice, getComputerChoice());
+    if (getPlayerChoice == null) {
+        console.log('Game cancelled! Reload page to restart.')
+        return;
     }
+
+    playRound(getPlayerChoice, getComputerChoice());
 
 }
 
