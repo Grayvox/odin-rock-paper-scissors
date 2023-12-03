@@ -1,0 +1,6 @@
+.bg {
+    background-image: url(./img/rps-background-castle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #1B2452;
+}
