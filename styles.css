@@ -34,3 +34,16 @@
     justify-content: center;
     margin: 150px;
 }
+
+.player-button {
+    margin: 10px;
+    min-width: 144px;
+    min-height: 144px;
+    font-size: 60px;
+    border-radius: 25px;
+}
+
+.player-button:hover {
+    background-color: #97d4d4;
+    border-color: #97d4d4;
+}
