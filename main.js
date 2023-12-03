@@ -1,3 +1,7 @@
+const rockButton = document.querySelector('#rock-btn');
+const paperButton = document.querySelector('#paper-btn');
+const scissorsButton = document.querySelector('scissors-btn');
+
 function getComputerChoice() {
     let options = ['rock', 'paper', 'scissors'];
     return options[Math.floor(Math.random() * options.length)]
@@ -25,6 +29,7 @@ function playRound(playerSelection, computerSelection) {
 
 }
 
+/*
 function game() {
 
     let getPlayerChoice = prompt('Thou must choose thy weapon: Rock, Paper, or Scissors.')
@@ -39,3 +44,6 @@ function game() {
 }
 
 game();
+*/
+
+
