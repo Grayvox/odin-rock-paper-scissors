@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
 
+.round-border {
+    border-radius: 15px;
+}
+
 .bg {
     background-image: url(./img/rps-background-castle.jpg);
     background-repeat: no-repeat;
@@ -10,7 +14,6 @@
 .game-page {
     margin: 100px 500px;
     padding: 10px;
-    border-radius: 15px;
     background-image: linear-gradient(#3b3c40, #1e1f21);
     font-family: 'MedievalSharp', cursive;
     color: lightgray;
@@ -54,5 +57,4 @@
     height: 200px;
     width: 600px;
     background-color: #3b3c40;
-    border-radius: 25px;
 }
