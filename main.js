@@ -27,21 +27,4 @@ function playRound(playerSelection, computerSelection) {
 
 }
 
-/*
-function game() {
-
-    let getPlayerChoice = prompt('Thou must choose thy weapon: Rock, Paper, or Scissors.')
-
-    if (getPlayerChoice == null) {
-        console.log('Game cancelled! Reload page to restart.')
-        return;
-    }
-
-    playRound(getPlayerChoice, getComputerChoice());
-
-}
-
-game();
-*/
-
 
