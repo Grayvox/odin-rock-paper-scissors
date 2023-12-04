@@ -20,7 +20,7 @@ function playRound(playerSelection, computerSelection) {
     } else if (playerSelection.toLowerCase() == 'scissors' && computerSelection.toLowerCase() == 'paper') {
         resultBoard.textContent = `Thou's scissors cuts computer's paper. Player tis victorious!`;
     } else if (playerSelection.toLowerCase() == 'scissors' && computerSelection.toLowerCase() == 'rock') {
-        resultBoard.textContent = `Computer's paper covers thou's rock. Computer tis victorious!`;
+        resultBoard.textContent = `Computer's rock smashes thou's scissors. Computer tis victorious!`;
     } else {
         resultBoard.textContent = `Error! One of thy selves chose a false weapon!`;
     }
