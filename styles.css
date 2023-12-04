@@ -51,7 +51,17 @@
     border-color: #97d4d4;
 }
 
+.result-text {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 35px;
+}
+
 .result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
     margin: auto;
     margin-bottom: 10px;
     height: 200px;

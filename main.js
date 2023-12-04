@@ -1,6 +1,4 @@
-const rockButton = document.querySelector('#rock-btn');
-const paperButton = document.querySelector('#paper-btn');
-const scissorsButton = document.querySelector('scissors-btn');
+const resultBoard = document.querySelector('#result');
 
 function getComputerChoice() {
     let options = ['rock', 'paper', 'scissors'];
@@ -10,28 +8,24 @@ function getComputerChoice() {
 function playRound(playerSelection, computerSelection) {
 
     if (playerSelection.toLowerCase() == computerSelection.toLowerCase()) {
-        console.log(`It's a tie! Thou hath both chosen thy same`)
+        resultBoard.textContent = `It's a tie! Thou hath both chosen thy same`;
     } else if (playerSelection.toLowerCase() == 'rock' && computerSelection.toLowerCase() == 'paper') {
-        console.log(`Paper covers thou's rock. Computer tis victorious!`)
+        resultBoard.textContent = `Paper covers thou's rock. Computer tis victorious!`;
     } else if (playerSelection.toLowerCase() == 'rock' && computerSelection.toLowerCase() == 'scissors') {
-        console.log(`Rock smashes thou's scissors. Player tis victorious!`)
+        resultBoard.textContent = `Rock smashes thou's scissors. Player tis victorious!`;
     } else if (playerSelection.toLowerCase() == 'paper' && computerSelection.toLowerCase() == 'rock') {
-        console.log(`Paper covers thou's rock. Player tis victorious!`)
+        resultBoard.textContent = `Paper covers thou's rock. Player tis victorious!`;
     } else if (playerSelection.toLowerCase() == 'paper' && computerSelection.toLowerCase() == 'scissors') {
-        console.log(`Scissors cuts thou's paper. Computer tis victorious!`)
+        resultBoard.textContent = `Scissors cuts thou's paper. Computer tis victorious!`;
     } else if (playerSelection.toLowerCase() == 'scissors' && computerSelection.toLowerCase() == 'paper') {
-        console.log(`Scissors cuts thou's paper. Player tis victorious!`)
+        resultBoard.textContent = `Scissors cuts thou's paper. Player tis victorious!`;
     } else if (playerSelection.toLowerCase() == 'scissors' && computerSelection.toLowerCase() == 'rock') {
-        console.log(`Paper covers thou's rock. Computer tis victorious!`)
+        resultBoard.textContent = `Paper covers thou's rock. Computer tis victorious!`;
     } else {
-        console.log(`Error! One of thy selves chose a false weapon!`)
+        resultBoard.textContent = `Error! One of thy selves chose a false weapon!`;
     }
 
 }
-
-rockButton.addEventListener('click', playRound(getComputerChoice(), 'rock'));
-paperButton.addEventListener('click', playRound(getComputerChoice(), 'paper'));
-scissorsButton.addEventListener('click', playRound(getComputerChoice(), 'scissors'));
 
 /*
 function game() {
